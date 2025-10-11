@@ -11,7 +11,7 @@ var map = new ol.Map({
     view: new ol.View({
          center: acehCenter,
          zoom: 7,
-         minZoom: 8,
+         minZoom: 7,
          maxZoom: 24,
          extent: acehExtent,
          constrainOnlyCenter: true
@@ -1170,4 +1170,5 @@ document.addEventListener('DOMContentLoaded', function() {
     var attributionControl = document.getElementsByClassName('bottom-attribution')[0];
     if (attributionControl) {
         bottomRightContainerDiv.appendChild(attributionControl);
+
     }
